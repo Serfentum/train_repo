@@ -1,0 +1,1000 @@
+LOCUS       AJ715963                 358 bp    DNA     linear   PRI 26-JUL-2016
+DEFINITION  Homo sapiens partial VH3-30 gene for immunoglobulin heavy chain
+            variable region, isolate donor 1, cell 20.
+ACCESSION   AJ715963
+VERSION     AJ715963.1
+KEYWORDS    immunoglobulin heavy chain; variable region; VH3-30 gene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Steimle-Grauer,S.A., Brauninger,A., Goossens,T., Hansmann,M.L. and
+            Kuppers,R.
+  TITLE     Molecular single cell V gene analysis of human IgD-only memory B
+            cells and plasma cells: Implications for the development of the
+            IgD- only B cell subset
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 358)
+  AUTHORS   Steimle-Grauer,S.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-MAY-2004) Steimle-Grauer S.A., Institute of
+            Pathology, University of Frankfurt am Main, Theodor-Stern-Kai 7,
+            60590 Frankfurt, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..358
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /isolate="donor 1, cell 20"
+                     /db_xref="taxon:9606"
+                     /cell_type="tonsillar IgD plasma cell"
+                     /tissue_type="tonsil"
+                     /rearranged
+     gene            <1..>358
+                     /gene="VH3-30"
+     CDS             <1..>358
+                     /gene="VH3-30"
+                     /function="immune response"
+                     /codon_start=1
+                     /product="immunoglobulin heavy chain"
+                     /protein_id="CAG29717.1"
+                     /translation="QVHLVESGGGVVQPGRSLRLSCAASGFTLSDYAMHWVRQAPGKG
+                     LEWVAIMPYDGNNKYYADSVEGRFTISRDNSKKILYLQMNSLRAEDSATYYCARDEGS
+                     TISIFGPPYYYYYMDVW"
+     V_region        <1..>358
+                     /gene="VH3-30"
+                     /product="immunoglobulin heavy chain"
+ORIGIN      
+        1 caggtgcacc tggtggagtc tgggggaggc gtggtccagc ctgggaggtc cctgagactc
+       61 tcctgtgcag cctcgggatt caccctcagt gactacgcta tgcactgggt ccgccaggct
+      121 ccaggcaagg ggctggagtg ggtggcaatt atgccatatg atggaaacaa taaatactat
+      181 gcagactccg tggagggccg attcaccatc tccagagaca attccaagaa aatcttgtat
+      241 ctgcaaatga acagcctgag agctgaggac tcggctactt attactgtgc gagagatgag
+      301 ggttcgacta tttcgatttt tggacccccc tactactact attacatgga cgtctggg
+//
+
+LOCUS       AJ715962                 364 bp    DNA     linear   PRI 26-JUL-2016
+DEFINITION  Homo sapiens partial VH3-30 gene for immunoglobulin heavy chain
+            variable region, isolate donor 1, cell 19.
+ACCESSION   AJ715962
+VERSION     AJ715962.1
+KEYWORDS    immunoglobulin heavy chain; variable region; VH3-30 gene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Steimle-Grauer,S.A., Brauninger,A., Goossens,T., Hansmann,M.L. and
+            Kuppers,R.
+  TITLE     Molecular single cell V gene analysis of human IgD-only memory B
+            cells and plasma cells : Implications for the development of the
+            IgD-only B cell subset
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 364)
+  AUTHORS   Steimle-Grauer,S.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-MAY-2004) Steimle-Grauer S.A., Institute of
+            Pathology, University of Frankfurt am Main, Theodor-Stern-Kai 7,
+            60590 Frankfurt, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..364
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /isolate="donor 1, cell 19"
+                     /db_xref="taxon:9606"
+                     /cell_type="tonsillar IgD plasma cell"
+                     /tissue_type="tonsil"
+                     /rearranged
+     gene            <1..>343
+                     /gene="VH3-30"
+     CDS             <1..>343
+                     /gene="VH3-30"
+                     /function="immune response"
+                     /codon_start=1
+                     /product="immunoglobulin heavy chain"
+                     /protein_id="CAG29716.1"
+                     /translation="QVQLVESGGGVVQPGRSLRLSCVASGFTFNSFAMHWVRQAPGKG
+                     LEWVSVISYDGSNKYYADSVKGRFTISRDKSKNTLYLQMNSLRAEDTAVYYCARDNKD
+                     CSTTSCHILYYY"
+     V_region        <1..>343
+                     /gene="VH3-30"
+                     /product="immunoglobulin heavy chain"
+ORIGIN      
+        1 caggtgcagc tggtggagtc tgggggaggc gtggtccagc ctgggaggtc cctgagactc
+       61 tcctgtgtag cctctggatt caccttcaat agctttgcta tgcactgggt ccgccaggct
+      121 ccaggcaagg ggctagagtg ggtgtcagtt atatcatatg atggaagtaa taaatactac
+      181 gcagactccg tgaagggccg attcaccatc tccagagaca agtccaagaa caccctgtat
+      241 ctgcaaatga acagcctgag agctgaggac acggctgtgt attactgtgc gcgagataac
+      301 aaggattgta gtactaccag ttgccatatc ctatactact actactacta catggacgtc
+      361 tggg
+//
+
+LOCUS       AJ715961                 343 bp    DNA     linear   PRI 26-JUL-2016
+DEFINITION  Homo sapiens partial VH4-4 gene for immunoglobulin heavy chain
+            variable region, isolate donor 1, cell 14.
+ACCESSION   AJ715961
+VERSION     AJ715961.1
+KEYWORDS    immunoglobulin heavy chain; variable region; VH4-4 gene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Steimle-Grauer,S.A., Brauninger,A., Goossens,T., Hansmann,M.L. and
+            Kuppers,R.
+  TITLE     Molecular single cell V gene analysis of human IgD-only memory B
+            cells and plasma cells : Implications for the development of the
+            IgD-only B cell subset
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 343)
+  AUTHORS   Steimle-Grauer,S.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-MAY-2004) Steimle-Grauer S.A., Institute of
+            Pathology, University of Frankfurt am Main, Theodor-Stern-Kai 7,
+            60590 Frankfurt, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..343
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /isolate="donor 1, cell 14"
+                     /db_xref="taxon:9606"
+                     /cell_type="tonsillar IgD plasma cell"
+                     /tissue_type="tonsil"
+                     /rearranged
+     gene            <1..>343
+                     /gene="VH4-4"
+     CDS             <1..>343
+                     /gene="VH4-4"
+                     /function="immune response"
+                     /codon_start=1
+                     /product="immunoglobulin heavy chain"
+                     /protein_id="CAG29715.1"
+                     /translation="QVQLQESGPGLVKPSGTLSLTCAVSGGSISTTHWWSWVRQPPGK
+                     GLEWIGEIYHSGSVNYNPSLESRVTISVDKSKNQFFVKLSSVTAADTAVYYCARENDI
+                     LTGYPIYYMDVW"
+     V_region        <1..>343
+                     /gene="VH4-4"
+                     /product="immunoglobulin heavy chain"
+ORIGIN      
+        1 caggtgcagc tgcaggagtc gggcccagga ctggtgaagc cttcggggac cctgtccctc
+       61 acctgcgctg tctctggtgg ctccatcagc actactcact ggtggagttg ggtccgccag
+      121 cccccaggga aggggctgga gtggattggg gaaatctatc atagtgggag cgtcaactac
+      181 aacccgtccc tcgagagtcg agtcaccata tcagttgaca agtctaagaa ccagttcttc
+      241 gtgaagctga gctctgtgac cgccgcggac acggccgtgt attactgtgc gcgagaaaac
+      301 gacattttga ctggttatcc catctactac atggacgtct ggg
+//
+
+LOCUS       AJ715958                 331 bp    DNA     linear   PRI 26-JUL-2016
+DEFINITION  Homo sapiens partial VH1-2 gene for immunoglobulin heavy chain
+            variable region, isolate donor 1, cell 10.
+ACCESSION   AJ715958
+VERSION     AJ715958.1
+KEYWORDS    immunoglobulin heavy chain; variable region; VH1-2 gene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Steimle-Grauer,S.A., Brauninger,A., Goossens,T., Hansmann,M.L. and
+            Kuppers,R.
+  TITLE     Molecular single cell V gene analysis of human IgD-only memory B
+            cells and plasma cells: Implications for the development of the
+            IgD-only B cell subset
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 331)
+  AUTHORS   Steimle-Grauer,S.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-MAY-2004) Steimle-Grauer S.A., Institute of
+            Pathology, University of Frankfurt am Main, Theodor-Stern-Kai 7,
+            60590 Frankfurt, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..331
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /isolate="donor 1, cell 10"
+                     /db_xref="taxon:9606"
+                     /cell_type="tonsillar IgD plasma cell"
+                     /tissue_type="tonsil"
+                     /rearranged
+     gene            <1..>331
+                     /gene="VH1-2"
+     CDS             <1..>331
+                     /gene="VH1-2"
+                     /function="immune response"
+                     /codon_start=1
+                     /product="immunoglobulin heavy chain"
+                     /protein_id="CAG29712.1"
+                     /translation="QVQLVQSGAEVKKPGASVKVSCKASGYTFTDYYIHWVRQAPGQG
+                     LEWMGWVNPNSGATDSAPKFQGRVTMSRDMSISTAYVELSSLRSDDTAVYYCASSRSY
+                     YCYYMAVW"
+     V_region        <1..>331
+                     /gene="VH1-2"
+                     /product="immunoglobulin heavy chain"
+ORIGIN      
+        1 caggtgcaac tggtgcagtc tggggctgag gtgaagaagc ctggggcctc agtgaaggtc
+       61 tcctgcaagg cttctggata caccttcacc gactactata tacactgggt gcgacaggcc
+      121 cctggacaag ggcttgagtg gatgggatgg gtcaacccta acagtggtgc cacagactct
+      181 gcaccgaagt ttcagggcag ggtcaccatg tccagggaca tgtccattag cacagcctac
+      241 gtggagctga gcagcctgag atctgacgac acggccgtct attactgtgc gagttccaga
+      301 tcctactact gctactacat ggccgtctgg g
+//
+
+LOCUS       AJ715957                 331 bp    DNA     linear   PRI 26-JUL-2016
+DEFINITION  Homo sapiens partial VH4-61 gene for immunoglobulin heavy chain
+            variable region, isolate donor 1, cell 9.
+ACCESSION   AJ715957
+VERSION     AJ715957.1
+KEYWORDS    immunoglobulin heavy chain; variable region; VH4-61 gene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Steimle-Grauer,S.A., Brauninger,A., Goossens,T., Hansmann,M.L. and
+            Kuppers,R.
+  TITLE     Molecular single cell V gene analysis of human IgD-only memory B
+            cells and plasma cells: Implications for the development of the
+            IgD-only B cell subset
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 331)
+  AUTHORS   Steimle-Grauer,S.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-MAY-2004) Steimle-Grauer S.A., Institute of
+            Pathology, University of Frankfurt am Main, Theodor-Stern-Kai 7,
+            60590 Frankfurt, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..331
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /isolate="donor 1, cell 9"
+                     /db_xref="taxon:9606"
+                     /cell_type="tonsillar IgD plasma cell"
+                     /tissue_type="tonsil"
+                     /rearranged
+     gene            <1..>331
+                     /gene="VH4-61"
+     CDS             <1..>331
+                     /gene="VH4-61"
+                     /function="immune response"
+                     /codon_start=1
+                     /product="immunoglobulin heavy chain"
+                     /protein_id="CAG29711.1"
+                     /translation="QVQLQESGPGLVKASQTLSLTCTVSGGSISSGSYYWSWIRQPAG
+                     KGLEWIGRISHTGTTNYNPSLQSRVVISVDTSKNQFSLKLTSVTAADTAVYFCAREQP
+                     EVRWFDPW"
+     V_region        <1..>331
+                     /gene="VH4-61"
+                     /product="immunoglobulin heavy chain"
+ORIGIN      
+        1 caggtgcagc tgcaggagtc gggcccagga ctggtgaagg cttcacagac cctgtccctc
+       61 acctgcactg tctctggtgg ctccatcagc agtggtagtt actattggag ctggatccgg
+      121 cagcccgccg ggaagggact ggagtggatt gggcgtatct ctcacactgg gaccaccaac
+      181 tacaacccct ccctccagag tcgagtcgtc atatcagtgg acacgtccaa gaatcagttc
+      241 tccctgaagc tgacctctgt gaccgccgca gacacggccg tatatttctg tgcgagagaa
+      301 caaccagaag tacgctggtt cgacccctgg g
+//
+
+LOCUS       AJ715955                 319 bp    DNA     linear   PRI 26-JUL-2016
+DEFINITION  Homo sapiens partial VH4-34 gene for immunoglobulin heavy chain
+            variable region, isolate donor 1, cell 3.
+ACCESSION   AJ715955
+VERSION     AJ715955.1
+KEYWORDS    immunoglobulin heavy chain; variable region; VH4-34 gene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Steimle-Grauer,S.A., Brauninger,A., Goossens,T., Hansmann,M.L. and
+            Kuppers,R.
+  TITLE     Molecular single cell V gene analysis of human IgD-only memory B
+            cells and plasma cells: Implications for the development of the
+            IgD-only B cell subset
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 319)
+  AUTHORS   Steimle-Grauer,S.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-MAY-2004) Steimle-Grauer S.A., Institute of
+            Pathology, University of Frankfurt am Main, Theodor-Stern-Kai 7,
+            60590 Frankfurt, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..319
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /isolate="donor 1, cell 3"
+                     /db_xref="taxon:9606"
+                     /cell_type="tonsillar IgD plasma cell"
+                     /tissue_type="tonsil"
+                     /rearranged
+     gene            <1..>319
+                     /gene="VH4-34"
+     CDS             <1..>319
+                     /gene="VH4-34"
+                     /function="immune response"
+                     /codon_start=1
+                     /product="immunoglobulin heavy chain"
+                     /protein_id="CAG29709.1"
+                     /translation="QVQLQQWGAGLLKPSETLSLTCAVYGGSFSGYYWSWIRQPPGKR
+                     MEWIGEMNHSGSDKYNASLKSRITISVDTPKNQFSLNLISVTAADTAVYYCARRRGFW
+                     FDPW"
+     V_region        <1..>319
+                     /gene="VH4-34"
+                     /product="immunoglobulin heavy chain"
+ORIGIN      
+        1 caggtgcagc tacaacagtg gggcgcaggg ctgttgaagc cttcggagac cctgtccctc
+       61 acctgcgctg tctatggtgg gtccttcagt ggttactact ggagctggat ccgccagccc
+      121 ccagggaaga ggatggagtg gattggggag atgaatcata gtggaagcga caagtacaac
+      181 gcgtccctca aaagtcgaat caccatatca gtagacacgc ccaagaacca gttctccctg
+      241 aatctgatct ctgtgaccgc cgcggacacg gctgtctatt actgtgcgag acgccgggga
+      301 ttctggttcg acccctggg
+//
+
+LOCUS       AJ715954                 343 bp    DNA     linear   PRI 26-JUL-2016
+DEFINITION  Homo sapiens partial VH1-18 gene for immunoglobulin heavy chain
+            variable region, isolate donor 1, cell 2.
+ACCESSION   AJ715954
+VERSION     AJ715954.1
+KEYWORDS    immunoglobulin heavy chain; variable region; VH1-18 gene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Steimle-Grauer,S.A., Brauninger,A., Goossens,T., Hansmann,M.L. and
+            Kuppers,R.
+  TITLE     Molecular single cell V gene analysis of human IgD-only memory B
+            cells and plasma cells: Implications for the development of the
+            IgD-only B cell subset
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 343)
+  AUTHORS   Steimle-Grauer,S.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-MAY-2004) Steimle-Grauer S.A., Institute of
+            Pathology, University of Frankfurt am Main, Theodor-Stern-Kai 7,
+            60590 Frankfurt, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..343
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /isolate="donor 1, cell 2"
+                     /db_xref="taxon:9606"
+                     /cell_type="tonsillar IgD plasma cell"
+                     /tissue_type="tonsil"
+                     /rearranged
+     gene            <1..>343
+                     /gene="VH1-18"
+     CDS             <1..>343
+                     /gene="VH1-18"
+                     /function="immune response"
+                     /codon_start=1
+                     /product="immunoglobulin heavy chain"
+                     /protein_id="CAG29708.1"
+                     /translation="QVQLVQSGAEVKKPGASVKVSCKVSGYRFTSYGISWVRQAPGQG
+                     LEWMGWISAYNGNTIYAQNFQGRVTMTTDTSTTTSHMELRSLRSDDTAVYYCARDSCS
+                     GTSCYPNAFDIW"
+     V_region        <1..>343
+                     /gene="VH1-18"
+                     /product="immunoglobulin heavy chain"
+ORIGIN      
+        1 caggttcagc tggtgcagtc tggagctgag gtgaagaagc ctggggcctc agtgaaggtc
+       61 tcctgcaagg tttctggtta caggtttacc agctatggca tcagctgggt gcgacaggcc
+      121 cctggacaag ggcttgagtg gatgggatgg atcagcgctt acaatggtaa cacaatctat
+      181 gcacagaact tccagggcag agtcaccatg accacagaca catccacgac cacatctcac
+      241 atggagctga ggagcctgag atctgacgac acggccgtat attactgtgc gagagatagt
+      301 tgtagtggta ccagctgcta tccaaatgct tttgatatct ggg
+//
+
+LOCUS       AJ715953                 367 bp    DNA     linear   PRI 26-JUL-2016
+DEFINITION  Homo sapiens partial VH3-30 gene for immunoglobulin heavy chain
+            variable region, isolate donor 1, cell 1.
+ACCESSION   AJ715953
+VERSION     AJ715953.1
+KEYWORDS    immunoglobulin heavy chain; variable region; VH3-30 gene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Steimle-Grauer,S.A., Brauninger,A., Goossens,T., Hansmann,M.L. and
+            Kuppers,R.
+  TITLE     Molecular single cell V gene analysis of human IgD-only memory B
+            cells and plasma cells: Implications for the development of the
+            IgD-only B cell subset
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 367)
+  AUTHORS   Steimle-Grauer,S.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-MAY-2004) Steimle-Grauer S.A., Institute of
+            Pathology, University of Frankfurt am Main, Theodor-Stern-Kai 7,
+            60590 Frankfurt, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..367
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /isolate="donor 1, cell 1"
+                     /db_xref="taxon:9606"
+                     /cell_type="tonsillar IgD plasma cell"
+                     /tissue_type="tonsil"
+                     /rearranged
+     gene            <1..>267
+                     /gene="VH3-30"
+     CDS             <1..>267
+                     /gene="VH3-30"
+                     /function="immune response"
+                     /codon_start=1
+                     /product="immunoglobulin heavy chain"
+                     /protein_id="CAG29707.1"
+                     /translation="QLQLVESGGGVVQPGTSLRLSCAASGFTFSNYAIHWVRQAPGKG
+                     LEWLALISHDGSYNFYADSVQDRFTVSRDNSRNTLYLQMDSLRPD"
+     V_region        <1..>267
+                     /gene="VH3-30"
+                     /product="immunoglobulin heavy chain"
+ORIGIN      
+        1 cagctgcaac tggtggagtc tgggggaggc gtggtccagc ctgggacgtc cctgagactg
+       61 tcctgtgcag cctctggatt caccttcagt aattatgcca ttcactgggt ccgccaggct
+      121 ccaggcaagg ggctggagtg gctggctctt atctcgcatg atggaagtta taatttctat
+      181 gccgactccg tgcaggaccg attcaccgtc tccagagaca attccaggaa cacgctatat
+      241 ctgcaaatgg acagcctgag acctgacgac acggcacttt attactgtgc gaaagatgcg
+      301 atttgcagca gtgccagctg tgtccgttct agccaaatct actattccta cttcatggac
+      361 gtctggg
+//
+
+LOCUS       AJ715939                 468 bp    DNA     linear   PRI 26-JUL-2016
+DEFINITION  Homo sapiens partial VH4-4 gene for immunoglobulin heavy chain
+            variable region, isolate donor 1, cell 2.
+ACCESSION   AJ715939
+VERSION     AJ715939.1
+KEYWORDS    immunoglobulin heavy chain; variable region; VH4-4 gene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Steimle-Grauer,S.A., Brauninger,A., Goossens,T., Hansmann,M.L. and
+            Kuppers,R.
+  TITLE     Molecular single cell V gene analysis of human IgD-only memory B
+            cells and plasma cells: Implications for the development of the
+            IgD- only B cell subset
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 468)
+  AUTHORS   Steimle-Grauer,S.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-MAY-2004) Steimle-Grauer S.A., Institute of
+            Pathology, University of Frankfurt am Main, Theodor-Stern-Kai 7,
+            60590 Frankfurt, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..468
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /isolate="donor 1, cell 2"
+                     /db_xref="taxon:9606"
+                     /cell_type="tonsillar IgD plasma cell"
+                     /tissue_type="tonsil"
+                     /rearranged
+     gene            <1..>468
+                     /gene="VH4-4"
+     V_region        <1..>468
+                     /gene="VH4-4"
+                     /product="immunoglobulin heavy chain"
+     CDS             <1..434
+                     /gene="VH4-4"
+                     /function="immune response"
+                     /codon_start=3
+                     /product="immunoglobulin heavy chain"
+                     /protein_id="CAG29718.1"
+                     /translation="VPLIPGLTVGLSVHRGPVSDAAAGVGPRTGEAFGDPVPHLRCLW
+                     WSGPGLVKPSGTLSLTCAVSGGSIKSRNWWTWVRQPPGKGLEWIGEICHGGSTNYNPS
+                     LKSRVIISVDKSKNQFSLRLSSVTTADTAVYYCARHSWVAL"
+ORIGIN      
+        1 aggtgcctct gatcccaggg ctcactgtgg gtctctctgt tcacaggggt cctgtctcag
+       61 atgcagctgc aggagtcggg cccaggactg gtgaagcctt cggggaccct gtccctcacc
+      121 tgcgctgtct ctggtggtcg ggcccaggac tggtgaagcc ttcggggacc ctgtccctca
+      181 cctgcgctgt ctctggtggc tccatcaaga gtcgtaactg gtggacttgg gtccgccagc
+      241 ccccagggaa ggggctggag tggattgggg aaatctgtca tggtgggagc accaactaca
+      301 acccgtccct caagagtcga gtcatcatat cagtagacaa gtccaagaac cagttctccc
+      361 tgaggctgag ctctgtgacc accgcggaca cggccgtgta ttactgtgcg agacactcat
+      421 gggtggcctt atagtagcac ctggttcttt acttgttcga cccctggg
+//
+
+LOCUS       AJ556837                 337 bp    DNA     linear   PRI 25-JUL-2016
+DEFINITION  Homo sapiens partial VH3-21 gene for immunoglobulin heavy chain,
+            isolate case 1, buffer 337.
+ACCESSION   AJ556837
+VERSION     AJ556837.1
+KEYWORDS    immunoglobulin heavy chain; VH3-21 gene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Brauninger,A., Spieker,T., Mottok,A., Baur,A.S., Kuppers,R. and
+            Hansmann,M.L.
+  TITLE     Epstein-Barr virus (EBV)-positive lymphoproliferations in
+            post-transplant patients show immunoglobulin V gene mutation
+            patterns suggesting interference of EBV with normal B cell
+            differentiation processes
+  JOURNAL   Eur. J. Immunol. 33 (6), 1593-1602 (2003)
+   PUBMED   12778477
+REFERENCE   2  (bases 1 to 337)
+  AUTHORS   Brauninger,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-APR-2003) Brauninger A., Pathology, University of
+            Frankfurt, Theodor Stern Kai 7, 60590, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..337
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /isolate="case 1, buffer 337"
+                     /db_xref="taxon:9606"
+                     /tissue_type="posttransplantation lymphoproliferative
+                     disease"
+                     /rearranged
+     gene            <1..>337
+                     /gene="VH3-21"
+     CDS             <1..>337
+                     /gene="VH3-21"
+                     /function="immune response"
+                     /codon_start=1
+                     /product="immunoglobulin heavy chain"
+                     /protein_id="CAD89249.1"
+                     /translation="GGLVKPGGSLRLSCAASGFTFSSYSMNWVRQAPGKGLEWVSSIS
+                     SSSSYIYYADSVKGRFTISRDNAKNSLYLQMNSLRAEDTAVYYCARDVDPRIMITFGG
+                     VIAEAYFDYW"
+     V_region        <1..>337
+                     /gene="VH3-21"
+                     /product="immunoglobulin heavy chain"
+ORIGIN      
+        1 ggaggcctgg tcaagcctgg ggggtccctg agactctcct gtgcagcctc tggattcacc
+       61 ttcagtagct atagcatgaa ctgggtccgc caggctccag ggaaggggct ggagtgggtc
+      121 tcatccatta gtagtagtag tagttacata tactacgcag actcagtgaa gggccgattc
+      181 accatctcca gagacaacgc caagaactca ctgtatctgc aaatgaacag cctgagagcc
+      241 gaggacacgg ctgtgtatta ctgtgcgaga gatgtggatc ctcgtattat gattacgttt
+      301 gggggagtta tcgccgaagc ttactttgac tactggg
+//
+
+LOCUS       AJ556836                 364 bp    DNA     linear   PRI 25-JUL-2016
+DEFINITION  Homo sapiens partial VH3-9 gene for immunoglobulin heavy chain,
+            isolate case 1, cell 74.
+ACCESSION   AJ556836
+VERSION     AJ556836.1
+KEYWORDS    immunoglobulin heavy chain; VH3-9 gene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Brauninger,A., Spieker,T., Mottok,A., Baur,A.S., Kuppers,R. and
+            Hansmann,M.L.
+  TITLE     Epstein-Barr virus (EBV)-positive lymphoproliferations in
+            post-transplant patients show immunoglobulin V gene mutation
+            patterns suggesting interference of EBV with normal B cell
+            differentiation processes
+  JOURNAL   Eur. J. Immunol. 33 (6), 1593-1602 (2003)
+   PUBMED   12778477
+REFERENCE   2  (bases 1 to 364)
+  AUTHORS   Brauninger,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-APR-2003) Brauninger A., Pathology, University of
+            Frankfurt, Theodor Stern Kai 7, 60590, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..364
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /isolate="case 1, cell 74"
+                     /db_xref="taxon:9606"
+                     /tissue_type="posttransplantation lymphoproliferative
+                     disease"
+                     /rearranged
+     gene            <1..>364
+                     /gene="VH3-9"
+     CDS             <1..>364
+                     /gene="VH3-9"
+                     /function="immune response"
+                     /codon_start=1
+                     /product="immunoglobulin heavy chain"
+                     /protein_id="CAD89248.1"
+                     /translation="EVQLVESGGGLVQPGRSLRLSCAASGFTFDDCAMHWVRQAPGKG
+                     LEWVASISWNSDSTGYADSVKGRFTISRDNAKNSLNLQMNSPGPEDTALYYCAKSPGS
+                     HDVDYMWKNYRPSWYFDLW"
+     V_region        <1..>364
+                     /gene="VH3-9"
+                     /product="immunoglobulin heavy chain"
+ORIGIN      
+        1 gaagtgcagc tggtggagtc tgggggaggc ttggtacagc ctggcaggtc cctgagactc
+       61 tcctgtgcag cctctggatt cacttttgat gattgtgcca tgcactgggt ccggcaagct
+      121 ccaggaaagg gcctggagtg ggtcgcaagt attagttgga atagtgatag cacaggctac
+      181 gcggactctg tgaagggccg attcaccatc tccagagaca acgccaagaa ctccctgaat
+      241 ctgcaaatga acagtccggg acctgaggac acggccttgt attactgtgc aaaatctccg
+      301 ggttcccacg atgttgatta tatgtggaaa aattatcgcc cgagttggta cttcgatctc
+      361 tggg
+//
+
+LOCUS       AJ556834                 349 bp    DNA     linear   PRI 25-JUL-2016
+DEFINITION  Homo sapiens partial VH1-2 gene for immunoglobulin heavy chain,
+            isolate case 1, cell 63, clone 4.
+ACCESSION   AJ556834
+VERSION     AJ556834.1
+KEYWORDS    immunoglobulin heavy chain; VH1-2 gene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Brauninger,A., Spieker,T., Mottok,A., Baur,A.S., Kuppers,R. and
+            Hansmann,M.L.
+  TITLE     Epstein-Barr virus (EBV)-positive lymphoproliferations in
+            post-transplant patients show immunoglobulin V gene mutation
+            patterns suggesting interference of EBV with normal B cell
+            differentiation processes
+  JOURNAL   Eur. J. Immunol. 33 (6), 1593-1602 (2003)
+   PUBMED   12778477
+REFERENCE   2  (bases 1 to 349)
+  AUTHORS   Brauninger,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-APR-2003) Brauninger A., Pathology, University of
+            Frankfurt, Theodor Stern Kai 7, 60590, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..349
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /isolate="case 1, cell 63, clone 4"
+                     /db_xref="taxon:9606"
+                     /tissue_type="posttransplantation lymphoproliferative
+                     disease"
+                     /rearranged
+     gene            <1..>349
+                     /gene="VH1-2"
+     CDS             <1..>349
+                     /gene="VH1-2"
+                     /function="immune response"
+                     /codon_start=1
+                     /product="immunoglobulin heavy chain"
+                     /protein_id="CAD89247.1"
+                     /translation="QVQLVQSGAEVKKPGASVKVSCKASGYTFTGYYMHWVRQAPGQG
+                     LEWMGWINPNSGGTNYAQKFQGRVTMTRDTSISTAYMELSRLRSDDTAVYYCARFFSG
+                     IVGANQGGYYFDYW"
+     V_region        <1..>349
+                     /gene="VH1-2"
+                     /product="immunoglobulin heavy chain"
+ORIGIN      
+        1 caggtgcagc tggtgcagtc tggggctgag gtgaagaagc ctggggcctc agtgaaggtc
+       61 tcctgcaagg cttctggata caccttcacc ggctactata tgcactgggt gcgacaggcc
+      121 cctggacaag ggcttgagtg gatgggatgg atcaacccta acagtggtgg cacaaactat
+      181 gcacagaagt ttcagggcag ggtcaccatg accagggaca cgtccatcag cacagcctac
+      241 atggagctga gcaggctgag atctgacgac acggccgtgt attactgtgc gagatttttt
+      301 tcgggtatag tgggagctaa tcaaggaggc tactactttg actactggg
+//
+
+LOCUS       AJ556833                 352 bp    DNA     linear   PRI 25-JUL-2016
+DEFINITION  Homo sapiens partial VH1-2 gene for immunoglobulin heavy chain,
+            isolate case 1, cell 62.
+ACCESSION   AJ556833
+VERSION     AJ556833.1
+KEYWORDS    immunoglobulin heavy chain; VH1-2 gene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Brauninger,A., Spieker,T., Mottok,A., Baur,A.S., Kuppers,R. and
+            Hansmann,M.L.
+  TITLE     Epstein-Barr virus (EBV)-positive lymphoproliferations in
+            post-transplant patients show immunoglobulin V gene mutation
+            patterns suggesting interference of EBV with normal B cell
+            differentiation processes
+  JOURNAL   Eur. J. Immunol. 33 (6), 1593-1602 (2003)
+   PUBMED   12778477
+REFERENCE   2  (bases 1 to 352)
+  AUTHORS   Brauninger,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-APR-2003) Brauninger A., Pathology, University of
+            Frankfurt, Theodor Stern Kai 7, 60590, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..352
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /isolate="case 1, cell 62"
+                     /db_xref="taxon:9606"
+                     /tissue_type="posttransplantation lymphoproliferative
+                     disease"
+                     /rearranged
+     gene            <1..>352
+                     /gene="VH1-2"
+     CDS             <1..>352
+                     /gene="VH1-2"
+                     /function="immune response"
+                     /codon_start=1
+                     /product="immunoglobulin heavy chain"
+                     /protein_id="CAD89246.1"
+                     /translation="QVQLVQSGAEVKKPGASVKVSCKASGYTFTGYYMHWVRQAPGQG
+                     LEWMGWINPNSGGTNYAQKFQGRVTMTRDTSISTAYMELSRLRSDDTAVYYCARDLAD
+                     LGYCSGGSCPAFDYW"
+     V_region        <1..>352
+                     /gene="VH1-2"
+                     /product="immunoglobulin heavy chain"
+ORIGIN      
+        1 caggtgcagc tggtgcagtc tggggctgag gtgaagaagc ctggggcctc agtgaaggtc
+       61 tcctgcaagg cttctggata caccttcacc ggctactata tgcactgggt gcgacaggcc
+      121 cctggacaag ggcttgagtg gatgggatgg atcaacccta acagtggtgg cacaaactat
+      181 gcacagaagt ttcagggcag ggtcaccatg accagggaca cgtccatcag cacagcctac
+      241 atggagctga gcaggctgag atctgacgac acggccgtgt attactgtgc gagagatttg
+      301 gcggacctag gatattgtag tggtggtagc tgcccggcct ttgactactg gg
+//
+
+LOCUS       AJ556832                 346 bp    DNA     linear   PRI 25-JUL-2016
+DEFINITION  Homo sapiens partial VH3-21 gene for immunoglobulin heavy chain,
+            isolate case 1, cell 33, clone 2.
+ACCESSION   AJ556832
+VERSION     AJ556832.1
+KEYWORDS    immunoglobulin heavy chain; VH3-21 gene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Brauninger,A., Spieker,T., Mottok,A., Baur,A.S., Kuppers,R. and
+            Hansmann,M.L.
+  TITLE     Epstein-Barr virus (EBV)-positive lymphoproliferations in
+            post-transplant patients show immunoglobulin V gene mutation
+            patterns suggesting interference of EBV with normal B cell
+            differentiation processes
+  JOURNAL   Eur. J. Immunol. 33 (6), 1593-1602 (2003)
+   PUBMED   12778477
+REFERENCE   2  (bases 1 to 346)
+  AUTHORS   Brauninger,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-APR-2003) Brauninger A., Pathology, University of
+            Frankfurt, Theodor Stern Kai 7, 60590, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..346
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /isolate="case 1, cell 33, clone 2"
+                     /db_xref="taxon:9606"
+                     /tissue_type="posttransplantation lymphoproliferative
+                     disease"
+                     /rearranged
+     gene            <1..>346
+                     /gene="VH3-21"
+     CDS             <1..>346
+                     /gene="VH3-21"
+                     /function="immune response"
+                     /codon_start=1
+                     /product="immunoglobulin heavy chain"
+                     /protein_id="CAD89245.1"
+                     /translation="EVQLVESGGGLVKPGGSLRLSCAASGFTFSSYSMNWVRQAPGKG
+                     LEWVSSISSSSSYIYYADSVKGRFTISRDNAKNSLYLQMNSLRAEDTAVYYCARSRGR
+                     FLEWLDPNWFDPW"
+     V_region        <1..>346
+                     /gene="VH3-21"
+                     /product="immunoglobulin heavy chain"
+ORIGIN      
+        1 gaggtgcagc tggtggagtc tgggggaggc ctggtcaagc ctggggggtc cctgagactc
+       61 tcctgtgcag cctctggatt caccttcagt agctatagca tgaactgggt ccgccaggct
+      121 ccagggaagg ggctggagtg ggtctcatcc attagtagta gtagtagtta catatactac
+      181 gcagactcag tgaagggccg attcaccatc tccagagaca acgccaagaa ctcactgtat
+      241 ctgcaaatga acagcctgag agccgaggac acggctgtgt attactgtgc gagatctcga
+      301 ggacgatttt tggagtggtt agacccaaac tggttcgacc cctggg
+//
+
+LOCUS       AJ556831                 343 bp    DNA     linear   PRI 25-JUL-2016
+DEFINITION  Homo sapiens partial VH3-30 gene for immunoglobulin heavy chain,
+            isolate case 1, cell 30.
+ACCESSION   AJ556831
+VERSION     AJ556831.1
+KEYWORDS    immunoglobulin heavy chain; VH3-30 gene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Brauninger,A., Spieker,T., Mottok,A., Baur,A.S., Kuppers,R. and
+            Hansmann,M.L.
+  TITLE     Epstein-Barr virus (EBV)-positive lymphoproliferations in
+            post-transplant patients show immunoglobulin V gene mutation
+            patterns suggesting interference of EBV with normal B cell
+            differentiation processes
+  JOURNAL   Eur. J. Immunol. 33 (6), 1593-1602 (2003)
+   PUBMED   12778477
+REFERENCE   2  (bases 1 to 343)
+  AUTHORS   Brauninger,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-APR-2003) Brauninger A., Pathology, University of
+            Frankfurt, Theodor Stern Kai 7, 60590, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..343
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /isolate="case 1, cell 30"
+                     /db_xref="taxon:9606"
+                     /tissue_type="posttransplantation lymphoproliferative
+                     disease"
+                     /rearranged
+     gene            <1..>343
+                     /gene="VH3-30"
+     CDS             <1..>343
+                     /gene="VH3-30"
+                     /function="immune response"
+                     /codon_start=1
+                     /product="immunoglobulin heavy chain"
+                     /protein_id="CAD89244.1"
+                     /translation="QVQLVESGGGVVQPGNSLRLSCGASGFSFSSYAMQWVRQAPGKG
+                     LEWVAAISNDGRYKFYADSVKGRFTISRDNSKITLYLQMNSLRVDDTAVYYCAKTKGV
+                     VPNRYPYYFDYW"
+     V_region        <1..>343
+                     /gene="VH3-30"
+                     /product="immunoglobulin heavy chain"
+ORIGIN      
+        1 caggtgcagc tggtggagtc ggggggaggc gtggtccagc ctggaaactc cctgagactc
+       61 tcctgtggag cctctggatt cagtttcagt agttatgcca tgcagtgggt ccgccaggcc
+      121 ccaggcaagg ggctggagtg ggtggcagct atttcaaatg atggacgtta taaattctat
+      181 gccgactccg tgaagggccg attcaccatc tccagagaca attccaagat cacgctgtat
+      241 ctgcaaatga acagcctgag agttgacgac acggctgtgt attattgtgc gaaaacgaag
+      301 ggtgtggtgc ctaatagata cccgtattat tttgactact ggg
+//
+
+LOCUS       AJ556830                 265 bp    DNA     linear   PRI 25-JUL-2016
+DEFINITION  Homo sapiens partial VH3-23 gene for immunoglobulin heavy chain,
+            isolate case 1, cell 25.
+ACCESSION   AJ556830
+VERSION     AJ556830.1
+KEYWORDS    immunoglobulin heavy chain; VH3-23 gene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Brauninger,A., Spieker,T., Mottok,A., Baur,A.S., Kuppers,R. and
+            Hansmann,M.L.
+  TITLE     Epstein-Barr virus (EBV)-positive lymphoproliferations in
+            post-transplant patients show immunoglobulin V gene mutation
+            patterns suggesting interference of EBV with normal B cell
+            differentiation processes
+  JOURNAL   Eur. J. Immunol. 33 (6), 1593-1602 (2003)
+   PUBMED   12778477
+REFERENCE   2  (bases 1 to 265)
+  AUTHORS   Brauninger,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-APR-2003) Brauninger A., Pathology, University of
+            Frankfurt, Theodor Stern Kai 7, 60590, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..265
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /isolate="case 1, cell 25"
+                     /db_xref="taxon:9606"
+                     /tissue_type="posttransplantation lymphoproliferative
+                     disease"
+                     /rearranged
+     gene            <1..>265
+                     /gene="VH3-23"
+     CDS             <1..>265
+                     /gene="VH3-23"
+                     /function="immune response"
+                     /codon_start=1
+                     /product="immunoglobulin heavy chain"
+                     /protein_id="CAD89243.1"
+                     /translation="TVSGGSISSGEYYWNWIRQPPGEGLEWIGYIYYSGTTHYNPSLK
+                     SRVDISLDTSKNQFSLTLSSVTAADTAVYYCANLPRASWYFDFW"
+     V_region        <1..>265
+                     /gene="VH3-23"
+                     /product="immunoglobulin heavy chain"
+ORIGIN      
+        1 acagtctctg gtggctccat cagcagtggt gaatactact ggaattggat tcgccagccc
+       61 ccaggggagg gcctggagtg gatcgggtac atctattaca gtgggaccac ccactacaac
+      121 ccgtccctca agagtcgagt tgacatctcg ttagacacgt ccaagaacca gttctccctg
+      181 accctgagct ctgtgactgc cgcagacacg gccgtgtact actgtgccaa ccttccgagg
+      241 gcaagttggt acttcgattt ctggg
+//
+
+LOCUS       AJ556829                 340 bp    DNA     linear   PRI 25-JUL-2016
+DEFINITION  Homo sapiens partial VH3-23 gene for immunoglobulin heavy chain,
+            isolate case 1, cell 22.
+ACCESSION   AJ556829
+VERSION     AJ556829.1
+KEYWORDS    immunoglobulin heavy chain; VH3-23 gene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Brauninger,A., Spieker,T., Mottok,A., Baur,A.S., Kuppers,R. and
+            Hansmann,M.L.
+  TITLE     Epstein-Barr virus (EBV)-positive lymphoproliferations in
+            post-transplant patients show immunoglobulin V gene mutation
+            patterns suggesting interference of EBV with normal B cell
+            differentiation processes
+  JOURNAL   Eur. J. Immunol. 33 (6), 1593-1602 (2003)
+   PUBMED   12778477
+REFERENCE   2  (bases 1 to 340)
+  AUTHORS   Brauninger,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-APR-2003) Brauninger A., Pathology, University of
+            Frankfurt, Theodor Stern Kai 7, 60590, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..340
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /isolate="case 1, cell 22"
+                     /db_xref="taxon:9606"
+                     /tissue_type="posttransplantation lymphoproliferative
+                     disease"
+                     /rearranged
+     gene            <1..>340
+                     /gene="VH3-23"
+     CDS             <1..>340
+                     /gene="VH3-23"
+                     /function="immune response"
+                     /codon_start=1
+                     /product="immunoglobulin heavy chain"
+                     /protein_id="CAD89242.1"
+                     /translation="EVQLLESGGGLVQPGGSLRLSCAASGFTFSSYAMSWVRQAPGKG
+                     LEWVSAISGSGGSTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKCSPS
+                     LWFGESPFDYW"
+     V_region        <1..>340
+                     /gene="VH3-23"
+                     /product="immunoglobulin heavy chain"
+ORIGIN      
+        1 gaggtgcagc tgttggagtc tgggggaggc ttggtacagc ctggggggtc cctgagactc
+       61 tcctgtgcag cctctggatt cacctttagc agctatgcca tgagctgggt ccgccaggct
+      121 ccagggaagg ggctggagtg ggtctcagct attagtggta gtggtggtag cacatactac
+      181 gcagactccg tgaagggccg gttcaccatc tccagagaca attccaagaa cacgctgtat
+      241 ctgcaaatga acagcctgag agccgaggac acggccgtat attactgtgc gaaatgttcc
+      301 ccatcgctat ggttcgggga gtcccctttt gactactggg
+//
+
+LOCUS       AJ556828                 325 bp    DNA     linear   PRI 25-JUL-2016
+DEFINITION  Homo sapiens partial VH1-46 gene for immunoglobulin heavy chain,
+            isolate case 1, cell 21.
+ACCESSION   AJ556828
+VERSION     AJ556828.1
+KEYWORDS    immunoglobulin heavy chain; VH1-46 gene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Brauninger,A., Spieker,T., Mottok,A., Baur,A.S., Kuppers,R. and
+            Hansmann,M.L.
+  TITLE     Epstein-Barr virus (EBV)-positive lymphoproliferations in
+            post-transplant patients show immunoglobulin V gene mutation
+            patterns suggesting interference of EBV with normal B cell
+            differentiation processes
+  JOURNAL   Eur. J. Immunol. 33 (6), 1593-1602 (2003)
+   PUBMED   12778477
+REFERENCE   2  (bases 1 to 325)
+  AUTHORS   Brauninger,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-APR-2003) Brauninger A., Pathology, University of
+            Frankfurt, Theodor Stern Kai 7, 60590, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..325
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /isolate="case 1, cell 21"
+                     /db_xref="taxon:9606"
+                     /tissue_type="posttransplantation lymphoproliferative
+                     disease"
+                     /rearranged
+     gene            <1..>325
+                     /gene="VH1-46"
+     CDS             <1..>325
+                     /gene="VH1-46"
