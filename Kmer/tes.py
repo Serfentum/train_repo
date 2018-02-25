@@ -13,7 +13,7 @@ with open('seq_y_pestis.fasta', 'r') as file:
     kmer_size = 23
 
     # Create kmer from each new fragment, count it occurence
-    for i in range(500 - kmer_size + 1):
+    for i in range(len(data) - kmer_size + 1):
         if data[i : i+kmer_size] not in res:
             km = Kmer(data[i: i + kmer_size])
             res[data[i: i + kmer_size]] = km
