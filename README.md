@@ -1,4 +1,4 @@
-# Genebank parser
+# Genebank parser and Kmer class
 This tool is devoted to parse output from genebank and was made as a homework to your assignment, Jenya. You can find all records which contains one of search words in your query.
 
 ## Prerequisites
