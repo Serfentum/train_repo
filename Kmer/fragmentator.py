@@ -38,11 +38,10 @@ class Fragmentator:
         if not self.points:
             self.kmer_stats()
 
-        # Zoom at plot
-        pruned = self._prune(mi, ma)
-
-        # Plot
-        plt.bar(pruned.keys(), pruned.values(), label=f'k = {self.k}')
+        # Plotting
+        plt.bar(self.points.keys(), self.points.values(), label=f'k = {self.k}')
+        # Zooming
+        plt.xlim(mi, ma)
         plt.title('Distribution of k-mers')
         plt.xlabel('Frequency of k-mers')
         plt.ylabel('# of distinct k-mers')
@@ -51,17 +50,9 @@ class Fragmentator:
         plt.legend()
         plt.show()
 
-    def _prune(self, mi, ma):
-        """Get part of coordinates to plot part of plot"""
-        if mi and ma:
-            pruned = {k: v for k, v in self.points.items() if ma > k >= mi}
-        elif mi:
-            pruned = {k: v for k, v in self.points.items() if k >= mi}
-        elif ma:
-            pruned = {k: v for k, v in self.points.items() if ma > k}
-        else:
-            return self.points.copy()
-        return pruned
 
 # a = Fragmentator('ATGCCTACCTGGTCCTACGCCT')
 # a.sequencing(5).kmering(3).kmer_plot()
+# a.sequencing(5).kmering(3).kmer_plot(2)
+# a.sequencing(5).kmering(3).kmer_plot(ma=5)
+# a.sequencing(5).kmering(3).kmer_plot(mi=3, ma=5)
