@@ -1,16 +1,16 @@
 # Kmer classes
 Directory Kmer is about our sequences homeworks. You\`ll find there several files. Let\`s list them:
 1. Plain text files - input data and part of it for simplicity
-  - seq_y_pestis.fasta
-  - test.fasta
+  * seq_y_pestis.fasta
+  * test.fasta
 2. Source code files
   1. Classes
-    - kmer.py
-    - fragmentator.py
+    * kmer.py
+    * fragmentator.py
   2. Scripts
-    - fast_way.py - script for fast doing 1st HW
-    - task1.py - script for 1st HW
-    - task2.py - script for 2nd HW
+    * fast_way.py - script for fast doing 1st HW
+    * task1.py - script for 1st HW
+    * task2.py - script for 2nd HW
 
 ## 2nd HW
 You should use sequencing and kmeering methods sequentially before plotting kmer plot.
