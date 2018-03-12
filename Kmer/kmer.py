@@ -36,8 +36,6 @@ class Kmer:
             pos = self._find_kmer(seq, pos + 1, stop)
         return perhaps_part_of_positions
 
-
-
     def dump(self):
         """
         Print tsv with kmer sequence and all its position where it placed.
