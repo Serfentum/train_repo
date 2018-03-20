@@ -1,4 +1,10 @@
 It was really long task.
-Results with quality threshold at 0.
+Results with quality threshold at 20.
 Estimated genome length is 880034534.862069 taken that putative maximum is 116.
 Looking at plot it looks wrong and I would rather take something about 190. Hence estimate of genome length will be reduced to 537284242.3728.
+Repetitive peaks after main perhaps reflect repeats.
+
+Results with no quality constraints.
+You can see that x axis on original plot is much wider - up to 500k. It means that some 11-mers have frequency around 500k, probably due to noise in data. 
+Estimated genome length was 3164991322.671875 with putative maximum at 128. 
+Length in case with lower appropriate quality is bigger than in calculations with quality threshold.

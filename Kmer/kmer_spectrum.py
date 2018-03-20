@@ -59,6 +59,8 @@ class KmerSpectrum:
         plt.ylabel('# of distinct k-mers')
         plt.legend()
 
+        # Plot noise separator
+        plt.axvline(self.k * 8, color='red')
         # Showing
         plt.show()
 
@@ -66,7 +68,6 @@ path = '/home/arleg/data/test_kmer.fastq'
 a = KmerSpectrum(path, k=11, q=20)
 a.analyze()
 a.transform()
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        a.plot()
 print(a.genome_length_estimate())
 
 b = KmerSpectrum(path, k=11, q=0)
