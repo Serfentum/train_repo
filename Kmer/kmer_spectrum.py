@@ -1,48 +1,114 @@
 from collections import Counter
+from statistics import median
 from Bio import SeqIO
 import matplotlib.pyplot as plt
 
 
 class KmerSpectrum:
-
+    """Class for analyzing kmer spectrum of sequence experiment"""
     def __init__(self, file_name, k=15, q=0):
+        """
+        Constructor
+        :param file_name: str - path to fastq file
+        :param k: int - kmer length
+        :param q: int - quality threshold
+        """
         self.file_name = file_name
         self.k = k
         self.q = q
         self.kmers = Counter()
         self.data = None
+        self.derivative = {}
+        self.threshold = None
+        self.max = None
 
     def analyze(self):
+        """Read fastq file, fragmentate it into kmers, take only kmers with all bases with certain quality"""
         sequences = SeqIO.parse(self.file_name, 'fastq')
         for record in sequences:
             self.fragmentate(record.seq, record.letter_annotations['phred_quality'])
 
     def fragmentate(self, read, quality):
+        """
+        Fragmentate read to kmers, add kmers to Counter() if the quality of all kmers >= quality threshold
+        :param read: str - read sequence
+        :param quality: list - with ints for every base
+        :return:
+        """
         self.kmers.update(Counter([read[i:i + self.k] for i in range(len(read) - self.k + 1)
                                    if all(x >= self.q for x in quality[i:i + self.k])]))
 
     def transform(self):
-        self.data = Counter(self.kmers.values())
+        """Count number of different reads with same occurency, make y of missing x in dict equal to 0"""
+        information = Counter(self.kmers.values())
+        self.data = {i: 0 for i in range(max(information))}
+        self.data.update(information)
 
     def genome_length_estimate(self):
-        expectation = sum([i * j for i, j in zip(self.data.keys(), self.data.keys())])
-        mp = self.maximum()
-        print(f'Putative maximum is {mp}')
-        return expectation / mp
+        """
+        Estimate length of genome upon kmer distribution and estimation of main peak abscissa
+        :return: float - length of genome in bases (perhaps I should round it to int)
+        """
+        self.maximum()
+        expectation = sum([i * j for i, j in zip(self.data.keys(), self.data.values())])
+        return expectation / self.max
+
+    def unit_derivative(self):
+        """
+        Here I compute derivative of function with increment of x equal to 1
+        :return:
+        """
+        for i in range(2, max(self.data) + 1):
+            self.derivative[i] = self.data[i] - self.data[i - 1]
+
+    def cutoff(self):
+        """
+        # Find x by which we will separate noise
+        :return:
+        """
+        # Compute derivative
+        self.unit_derivative()
+        # Find minimum
+        for i in range(2, len(self.derivative)):
+            if self.derivative[i] == 0 and self.derivative[i + 1] > 0:
+                self.threshold = i
+                break
 
     def maximum(self):
-        """Try to find global maximum, but it could be local. If doesn`t find, take empiric value"""
-        m = max(self.data.keys())
-        for i in range(10, min(round(0.8 * m), m - 15)):
-            for j in range(10):
-                if self.data[i] < self.data[i - j] or self.data[i] < self.data[i + j]:
-                    break
-            else:
-                return i
-        return 0.4 * max(self.data.keys())
+        """
+        Find x coordinate of main peak
+        :return:
+        """
+        # Find position of main peak
+        # self.max = max(self.derivative, key=lambda x: self.derivative[x])
+        for i in range(self.threshold, len(self.derivative)):
+            if self.derivative[i] >= 0 and self.derivative[i + 1] < 0:
+                print(f'{self.q} - Putative maximum is {self.max}')
+                self.max = i
+                break
 
+    def smooth_function(self, window=10):
+        """
+        Smooth our function of number of distinct kmers depending upon frequency of kmers.
+        Slides on x-axis and substitute y-values on median at window.
+        Update self.data
+        :param window: int - length of sliding window
+        :return:
+        """
+        smoothed = {}
+        for i in range(1, max(self.data) - window + 1):
+            smoothed[i] = median(self.data[j] for j in range(i, i + window))
+        self.data = smoothed
 
-    def plot(self, xs=(None, None), ys=(None, None), log_scale=False):
+    def plot(self, output, xs=(None, None), ys=(None, None), log_scale=False):
+        """
+        Plot kmer spectrum
+        :param output: str - path to output file
+        :param xs: tuple - range of x-axis
+        :param ys: tuple - range of y-axis
+        :param log_scale: boolean - whether y-axis is logarithmically scaled
+        :return:
+        """
         # Drawing
         plt.bar(self.data.keys(), self.data.values(),
                 label=f'{"Logarithmic scale" if log_scale else "Linear scale"}\nk = {self.k}\nq = {self.q}')
@@ -60,21 +126,28 @@ class KmerSpectrum:
         plt.legend()
 
         # Plot noise separator
-        plt.axvline(self.k * 8, color='red')
-        # Showing
-        plt.show()
+        self.cutoff()
+        plt.axvline(self.threshold, color='red')
 
-path = '/home/arleg/data/test_kmer.fastq'
-a = KmerSpectrum(path, k=11, q=20)
-a.analyze()
-a.transform()
-print(a.genome_length_estimate())
+        # Save plot
+        plt.savefig(output)
+        plt.close()
 
-b = KmerSpectrum(path, k=11, q=0)
-b.analyze()
-b.transform()
-b.plot()
-print(b.genome_length_estimate())
+
+if __name__ == '__main__':
+    path = 'test.fastq'
+    # path = 'kmer_test'
+
+    for q in (0, 20):
+        b = KmerSpectrum(path, k=11, q=q)
+        b.analyze()
+        b.transform()
+
+        for i in range(3):
+            b.plot(f'TEST_plot_{q}_quality_{i}_smoothes.svg')
+            print(f'Genome length estimate with {q} quality threshold and {i} smoothes - {b.genome_length_estimate()}')
+            b.smooth_function()
+
 
 
 

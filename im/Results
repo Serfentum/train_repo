@@ -8,3 +8,19 @@ Results with no quality constraints.
 You can see that x axis on original plot is much wider - up to 500k. It means that some 11-mers have frequency around 500k, probably due to noise in data. 
 Estimated genome length was 3164991322.671875 with putative maximum at 128. 
 Length in case with lower appropriate quality is bigger than in calculations with quality threshold.
+
+
+UP
+
+0 - Putative maximum is None                              
+Genome length estimate with 0 quality threshold and 0 smoothes - 830211.95789473
+68                                                           
+0 - Putative maximum is 380                                                  
+Genome length estimate with 0 quality threshold and 1 smoothes - 2372838.0528455
+283                                                                             0 - Putative maximum is 123
+Genome length estimate with 0 quality threshold and 2 smoothes - 2375468.932773109  
+20 - Putative maximum is None                                                   Genome length estimate with 20 quality threshold and 0 smoothes - 1655016.83707$
+6516                                                                            20 - Putative maximum is 178
+Genome length estimate with 20 quality threshold and 1 smoothes - 2431063.74107$4286 
+20 - Putative maximum is 112                                                    Genome length estimate with 20 quality threshold and 2 smoothes - 2417896.04816$
+1374
