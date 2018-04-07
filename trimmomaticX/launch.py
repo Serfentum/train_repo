@@ -29,7 +29,8 @@ def parsing():
                         metavar='<1-sequence length>',
                         type=int)
     parser.add_argument('-q', '--quality',
-                        help='necessary mean quality of fragment at sliding window',
+                        help='threshold of mean fragment quality at sliding window',
+                        metavar='<phred quality>',
                         type=int)
     parser.add_argument('-v', '--version', action='version', version='{} pre-alpha'.format(parser.prog))
 
@@ -50,6 +51,7 @@ def parsing():
     quality = args.__dict__['quality']
 
     cleave = Trimmomatic(path, out)
+
 
     cleave.do([cleave.pack_task(cleave.headcrop, start),
                cleave.pack_task(cleave.tailcrop, end),
