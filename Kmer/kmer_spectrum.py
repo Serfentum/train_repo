@@ -136,17 +136,19 @@ class KmerSpectrum:
 
 if __name__ == '__main__':
     path = 'test.fastq'
-    # path = 'kmer_test'
 
     for q in (0, 20):
         b = KmerSpectrum(path, k=11, q=q)
         b.analyze()
         b.transform()
-
-        for i in range(3):
-            b.plot(f'TEST_plot_{q}_quality_{i}_smoothes.svg')
-            print(f'Genome length estimate with {q} quality threshold and {i} smoothes - {b.genome_length_estimate()}')
+        for i in range(2):
             b.smooth_function()
+        b.plot('ttt')
+
+        # for i in range(3):
+        #     b.plot(f'TEST_plot_{q}_quality_{i}_smoothes.png')
+        #     print(f'Genome length estimate with {q} quality threshold and {i} smoothes - {b.genome_length_estimate()}')
+        #     b.smooth_function()
 
 
 
