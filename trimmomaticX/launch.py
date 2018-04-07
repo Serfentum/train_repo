@@ -1,7 +1,8 @@
 #! /usr/bin/env python
 
 from colored_argparse import ColoredArgParser
-from trimmomaticx import *
+from trimmomatic import *
+
 
 
 def parsing():
@@ -38,26 +39,23 @@ def parsing():
     for arg, value in args.__dict__.items():
         print(type(arg), type(value), arg, value, sep='\t')
 
-        # a = process_input(args.__dict__['input'])
-        #
-        # t = pack_task(quality_crop, 5, 3)
     print(args.__dict__)
 
 
+    path = args.__dict__['input']
+    out = args.__dict__['output']
     start = args.__dict__['start']
     end = args.__dict__['end']
     sliding_window = args.__dict__['sliding_window']
     quality = args.__dict__['quality']
 
-    sequences = process_input(args.__dict__['input'])
-    seqs = []
+    cleave = Trimmomatic(path, out)
 
-    if start:
+    cleave.do([cleave.pack_task(cleave.headcrop, start),
+               cleave.pack_task(cleave.tailcrop, end),
+               cleave.pack_task(cleave.quality_crop, sliding_window, quality)])
 
-        t = pack_task(headcrop, 5)
-        do(seqs, [t])
-
-    print(seqs)
+    cleave.dump()
 
 
 if __name__ == '__main__':

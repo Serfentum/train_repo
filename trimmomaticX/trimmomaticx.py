@@ -9,7 +9,7 @@ from Bio.Seq import Seq
 # sliding window - size of window
 # quality - slice if mean quality of several nucleotides drops
 
-seqs = []
+
 
 def process_input(path):
     sequences = SeqIO.parse(path, 'fastq')
@@ -18,7 +18,7 @@ def process_input(path):
 def dump(sequences, path):
     SeqIO.write(sequences, path, 'fastq')
 
-def headcrop(sequence, size):
+def headcrop(sequence, size, seqs=[]):
     # Drop size nucls from start
     # Create SeqRecord
     seqs.append(sequence[size:])
@@ -34,7 +34,7 @@ def headcrop(sequence, size):
 
 
 
-def tailcrop(sequence, size):
+def tailcrop(sequence, size, seqs=[]):
     # Drop size nucls from end
     seqs.append(sequence[:-size])
     # a = SeqRecord(Seq(str(sequence.seq)[:-size]),
@@ -44,7 +44,7 @@ def tailcrop(sequence, size):
     #               letter_annotations={spec: vals[:-size] for spec, vals in sequence.letter_annotations.items()})
     # seqs.append(a)
 
-def quality_crop(sequence, sliding_window, quality):
+def quality_crop(sequence, sliding_window, quality, seqs=[]):
     #
     for i in range(len(sequence) - sliding_window + 1):
         if mean(sequence.letter_annotations['phred_quality'][i:i + sliding_window]) < quality:
