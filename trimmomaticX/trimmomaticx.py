@@ -70,13 +70,13 @@ def do(sequences, tasks):
             task(sequence)
 
 
-a = process_input('test')
-t = pack_task(quality_crop, 5, 30)
-do(a, [t])
+# a = process_input('test')
+# t = pack_task(quality_crop, 5, 30)
+# do(a, [t])
 # for i in a:
 #     print(i)
 # for i, j in zip(SeqIO.parse('test', 'fastq'), seqs):
 #     print(i, j, sep='\t')
 #     # for x, y in zip(i, j):
 #     #     print(x == y, x, y, sep='\t')
-print(seqs)
+# print(seqs)

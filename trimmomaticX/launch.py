@@ -19,10 +19,17 @@ def parsing():
     parser.add_argument('-s', '--start', help='number of nucleotide to crop from start',
                         metavar='<1-sequence length>',
                         type=int)
-    parser.add_argument('-e', '--end', help='number of nucleotide to crop from end',
-                        metavar='<1-sequence length>')
-    parser.add_argument('-w', '--sliding-window', help='another flag', action='store_false')
-    parser.add_argument('-q', '--quality', help='another flag', action='store_false')
+    parser.add_argument('-e', '--end',
+                        help='number of nucleotide to crop from end',
+                        metavar='<1-sequence length>',
+                        type=int)
+    parser.add_argument('-w', '--sliding-window',
+                        help='size of sliding window',
+                        metavar='<1-sequence length>',
+                        type=int)
+    parser.add_argument('-q', '--quality',
+                        help='necessary mean quality of fragment at sliding window',
+                        type=int)
     parser.add_argument('-v', '--version', action='version', version='{} pre-alpha'.format(parser.prog))
 
 
@@ -34,7 +41,23 @@ def parsing():
         # a = process_input(args.__dict__['input'])
         #
         # t = pack_task(quality_crop, 5, 3)
+    print(args.__dict__)
 
+
+    start = args.__dict__['start']
+    end = args.__dict__['end']
+    sliding_window = args.__dict__['sliding_window']
+    quality = args.__dict__['quality']
+
+    sequences = process_input(args.__dict__['input'])
+    seqs = []
+
+    if start:
+
+        t = pack_task(headcrop, 5)
+        do(seqs, [t])
+
+    print(seqs)
 
 
 if __name__ == '__main__':
