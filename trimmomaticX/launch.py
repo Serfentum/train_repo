@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 
 from colored_argparse import ColoredArgParser
+from trimmomaticx import *
 
 
 def parsing():
@@ -11,20 +12,29 @@ def parsing():
                                           'aliquip ex ea commodo consequat.',
                               epilog='Goodbye',
                               fromfile_prefix_chars='@')
-    parser.add_argument('-i', '--input', help='absolute or relative path to file', metavar='<path to file>',
+    parser.add_argument('-i', '--input', help='path to file', metavar='<path to file>',
                         type=str, required=True)
-    parser.add_argument('-o', '--output', help='output description', metavar='<path to output>',
+    parser.add_argument('-o', '--output', help='path to output', metavar='<path to output>',
                         type=str, default=name)
-    parser.add_argument('-b', '--binary', help='some flag', action='store_true')
-    parser.add_argument('-t', '--thetary', help='numerical argument', metavar='<1-10>')
-    parser.add_argument('-z', '--zetary', help='another flag', action='store_false')
+    parser.add_argument('-s', '--start', help='number of nucleotide to crop from start',
+                        metavar='<1-sequence length>',
+                        type=int)
+    parser.add_argument('-e', '--end', help='number of nucleotide to crop from end',
+                        metavar='<1-sequence length>')
+    parser.add_argument('-w', '--sliding-window', help='another flag', action='store_false')
+    parser.add_argument('-q', '--quality', help='another flag', action='store_false')
     parser.add_argument('-v', '--version', action='version', version='{} pre-alpha'.format(parser.prog))
 
 
     args = parser.parse_args()
 
     for arg, value in args.__dict__.items():
-        print(arg, value, sep='\t')
+        print(type(arg), type(value), arg, value, sep='\t')
+
+        # a = process_input(args.__dict__['input'])
+        #
+        # t = pack_task(quality_crop, 5, 3)
+
 
 
 if __name__ == '__main__':
