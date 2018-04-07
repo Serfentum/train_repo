@@ -17,6 +17,8 @@ After
 ## Usage
 There are several flags which you can use
 
+`python launch.py`
+
 -h, --help show this help message and exit
 
   -i <path to file>, --input <path to file>
