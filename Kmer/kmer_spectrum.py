@@ -76,13 +76,9 @@ class KmerSpectrum:
         # Compute derivative
         self.unit_derivative()
 
-        # Find minimum - first point where function start grow after stable period #TODO perhaps correct function
+        # Find minimum - first point where function start grow after stable period
+        # #TODO perhaps correct function, though looks ok according to tests
         self.threshold = np.where(self.derivative > 0)[0][0] - 1
-
-        # for i in range(2, len(self.derivative)):
-        #     if self.derivative[i] == 0 and self.derivative[i + 1] > 0:
-        #         self.threshold = i
-        #         break
 
     def maximum(self):
         """
@@ -90,13 +86,8 @@ class KmerSpectrum:
         :return:
         """
         # Find position of main peak
-        # self.max = max(self.derivative, key=lambda x: self.derivative[x])
         self.max = np.where(self.derivative[self.threshold:] < 0)[0][0] + self.threshold
-        # for i in range(self.threshold, len(self.derivative)):
-        #     if self.derivative[i] >= 0 and self.derivative[i + 1] < 0:
-        #         print(f'{self.q} - Putative maximum is {self.max}')
-        #         self.max = i
-        #         break
+
 
     def smooth_function(self, window=10):
         """
@@ -109,10 +100,6 @@ class KmerSpectrum:
         smoothed = np.zeros(len(self.data))
         for i in range(len(self.data)):
             smoothed[i] = np.median(self.data[i:i + window])
-
-        # smoothed = {}
-        # for i in range(1, max(self.data) - window + 1):
-        #     smoothed[i] = median(self.data[j] for j in range(i, i + window))
         self.data = smoothed
 
     def plot(self, output, xs=(None, None), ys=(None, None), log_scale=False):
@@ -150,21 +137,18 @@ class KmerSpectrum:
 
 
 if __name__ == '__main__':
-    path = '/home/arleg/data/test_kmer.fastq'
+    path = '/home/arleg/data/ttest_kmer.fastq'
 
-    for q in (0, 20):
+    for q in (0,):
         b = KmerSpectrum(path, k=11, q=q)
         b.analyze()
         b.transform()
         for i in range(2):
             b.smooth_function()
-        # b.plot('NewFunc.png', (0, 3000), (0, 10000))
-
-        for i in range(3):
             b.plot(f'NewPlot_{q}_quality_{i}_smoothes.png')
             print(f'Genome length estimate with {q} quality threshold and {i} smoothes - {b.genome_length_estimate()}')
-            b.smooth_function()
-
+            print(b.threshold)
+            print(b.max)
 
 
 
