@@ -42,12 +42,11 @@ class KmerSpectrum:
         """Count number of different reads with same occurency, make y of missing x in dict equal to 0"""
         information = Counter(self.kmers.values())
 
+        # Create np array of plot coordinates from dict
         distribution = np.zeros(max(information) + 1)
         for position, value in information.items():
             distribution[position] = value
         self.data = distribution
-        # self.data = {i: 0 for i in range(max(information))}
-        # self.data.update(information)
 
     def genome_length_estimate(self):
         """
@@ -57,9 +56,8 @@ class KmerSpectrum:
         if not self.threshold:
             self.cutoff()
         self.maximum()
-
-        expectation = np.sum(np.arange(1, len(self.data) + 1) * self.data)
-        # expectation = sum([i * j for i, j in zip(self.data.keys(), self.data.values())])
+        # Compute sum of x * y for all x and divide by x of main peak
+        expectation = np.sum(np.arange(self.threshold, len(self.data)) * self.data[self.threshold:])
         return expectation / self.max
 
     def unit_derivative(self):
@@ -67,9 +65,8 @@ class KmerSpectrum:
         Here I compute derivative of function with increment of x equal to 1
         :return:
         """
+        # Compute f(x) - f(x - 1) - derivative of y
         self.derivative = self.data[2:] - self.data[1:-1]
-        # for i in range(2, max(self.data) + 1):
-        #     self.derivative[i] = self.data[i] - self.data[i - 1]
 
     def cutoff(self):
         """
@@ -79,7 +76,7 @@ class KmerSpectrum:
         # Compute derivative
         self.unit_derivative()
 
-        # Find minimum
+        # Find minimum - first point where function start grow after stable period #TODO perhaps correct function
         self.threshold = np.where(self.derivative > 0)[0][0] - 1
 
         # for i in range(2, len(self.derivative)):
