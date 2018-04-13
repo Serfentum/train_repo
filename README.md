@@ -1,12 +1,3 @@
-# Kmer classes
-Directory Kmer is about our sequences homeworks.
-
-kmer_spectrum.py contains KmerSpectrum class and example of usage.
-
-im - directory with output images from KmerSpectrum and file with result description.
-
-
-
 # Genebank parser
 This tool is devoted to parse output from genebank and was made as a homework to your assignment, Jenya. You can find all records which contains one of search words in your query.
 
