@@ -56,8 +56,8 @@ class KmerSpectrum:
         if not self.threshold:
             self.cutoff()
         self.maximum()
-        # Compute sum of x * y for all x and divide by x of main peak
-        expectation = np.sum(np.arange(self.threshold, len(self.data)) * self.data[self.threshold:])
+        # Compute sum of x * y for all x and divide by x of main peak and 2 due 2 double strandness of coming DNA
+        expectation = np.sum(np.arange(self.threshold, len(self.data)) * self.data[self.threshold:]) / 2
         return expectation / self.max
 
     def unit_derivative(self):
