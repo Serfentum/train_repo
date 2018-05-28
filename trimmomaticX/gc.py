@@ -36,10 +36,11 @@ def gc_content(path='test_classwork2.fastq',
 
     # Plot distribution of GC% in reads
     plt.hist(gc_contents)
-    plt.title('GC content of reads')
+    plt.title(f'GC content of reads, {threshold}')
     plt.xlabel('GC%')
     plt.ylabel('Occurency')
     plt.savefig(out_path)
 
 
-gc_content()
+if __name__ == '__main__':
+    gc_content()
